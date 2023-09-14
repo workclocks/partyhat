@@ -46,7 +46,7 @@ Before you get started, ensure you have the following dependencies:
 4. Start the API server:
 
    ```shell
-   npm start
+   npm run start
    ```
 5. **Congrats!** The API server should now be running on port 8080.
 
