@@ -119,7 +119,7 @@ app.post('/urlupload', uploadLimiter, async (req, res) => {
     }
 });
 
-// Handle file deletion
+// handle file deletion
 app.post('/delete', (req, res) => {
     const { files } = req.body;
     const fileNames = files.split(' ');
