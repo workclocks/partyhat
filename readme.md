@@ -1,4 +1,6 @@
-![partyhat](https://cdn.discordapp.com/attachments/1097559597268619425/1151740733032771634/logo.png)
+<p align="center">
+  <img src="https://cdn.discordapp.com/attachments/1097559597268619425/1151740733032771634/logo.png" alt="Party Hat Logo">
+</p>
 
 ## Overview
 
