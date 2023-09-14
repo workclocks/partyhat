@@ -26,6 +26,11 @@ jobs:
       with:
         node-version: ${{ matrix.node-version }}
         cache: 'npm'
+    - name: Change working directory to src/server
     - run: cd src/server
+
+    - name: Install dependencies
     - run: npm ci
+    
+    - name: Start server
     - run: npm run start
