@@ -1,0 +1,220 @@
+body {
+    background-image: url();
+    background-color: #070007; /* Dark background color */
+    color: white;
+}
+
+.welcome {
+    color: #FF69B4; /* Pink text color */
+}
+
+.welcomesub {
+    color: #FF69B4; /* Pink text color */
+}
+
+ul li.home {
+    background-image: url();
+    background-color: #1E1E1E; /* Dark background color */
+    border-color: #FF69B4; /* Pink border color */
+}
+
+ul li.torrent {
+    background-image: url();
+    background-color: #1E1E1E; /* Dark background color */
+    border-color: #FF69B4; /* Pink border color */
+}
+
+a.linkbutton {
+    color: #FF69B4; /* Pink text color */
+}
+
+a.linkbutton:hover {
+    color: #FF1493; /* Darker pink hover color */
+}
+
+a.homebutton {
+    color: #FF69B4; /* Pink text color */
+}
+
+a.homebutton:hover {
+    color: #FF1493; /* Darker pink hover color */
+}
+
+form.genericform {
+    background-image: url();
+    background-color: #1E1E1E; /* Dark background color */
+    border-color: #FF69B4; /* Pink border color */
+}
+
+form.urlUploadForm {
+    background-color: #1E1E1E; /* Dark background color */
+}
+
+form.contact {
+    background-image: url();
+    background-color: #1E1E1E; /* Dark background color */
+    border-color: #FF69B4; /* Pink border color */
+}
+
+form.dz-clickable {
+    background-image: url();
+    background-color: #FF69B4; /* Pink background color */
+    border-color: #FF69B4; /* Pink border color */
+}
+
+table {
+    background-image: url();
+    background-color: #1E1E1E; /* Dark background color */
+    border-color: #FF69B4; /* Pink border color */
+}
+
+td {
+    border-color: #FF69B4; /* Pink border color */
+}
+
+form.dz-clickable:hover {
+    background-color: #FF1493; /* Darker pink hover color */
+    text-decoration: none;
+    outline: none;
+    transition: background-color 150ms linear;
+}
+
+div.dz-message {
+    color: white;
+}
+
+div.dz-preview {
+    background-image: url();
+    background-color: #1E1E1E; /* Dark background color */
+    border-color: #FF69B4; /* Pink border color */
+}
+
+span.urlResponse {
+    background-color: #FF69B4; /* Pink background color */
+    border-color: #FF69B4; /* Pink border color */
+}
+
+span.urlResponse:hover {
+    background-color: #FF1493; /* Darker pink hover color */
+    text-decoration: none;
+    outline: none;
+    transition: background-color 150ms linear;
+}
+
+p.albumlink {
+    background-color: #FF69B4; /* Pink background color */
+    border-color: #FF69B4; /* Pink border color */
+}
+
+p.albumlink:hover {
+    background-color: #FF1493; /* Darker pink hover color */
+    text-decoration: none;
+    outline: none;
+    transition: background-color 150ms linear;
+}
+
+div.responseText {
+    background-color: #FF69B4; /* Pink background color */
+    border-color: #FF69B4; /* Pink border color */
+}
+
+div.responseText:hover {
+    background-color: #FF1493; /* Darker pink hover color */
+    text-decoration: none;
+    outline: none;
+    transition: background-color 150ms linear;
+}
+
+div.seeders {
+    background-image: url();
+    background-color: #1E1E1E; /* Dark background color */
+    border-color: #FF69B4; /* Pink border color */
+}
+
+div.leechers {
+    background-image: url();
+    background-color: #1E1E1E; /* Dark background color */
+    border-color: #FF69B4; /* Pink border color */
+}
+
+div.completed {
+    background-image: url();
+    background-color: #1E1E1E; /* Dark background color */
+    border-color: #FF69B4; /* Pink border color */
+}
+
+input[type=submit] {
+    background-color: #FF69B4; /* Pink background color */
+    border-color: #FFB6C1; /* Pink border color */
+    color: white;
+}
+
+input[type=submit]:hover {
+    background-color: #FF1493; /* Darker pink hover color */
+    border-color: #FFB6C1; /* Pink border color */
+    color: white;
+}
+
+input[type=button] {
+    background-color: #FF69B4; /* Pink background color */
+    border-color: #FFB6C1; /* Pink border color */
+    color: white;
+}
+
+input[type=button]:hover {
+    background-color: #FF1493; /* Darker pink hover color */
+    border-color: #FFB6C1; /* Pink border color */
+    color: white;
+}
+
+input[type=text].stylized {
+    background-color: #FF1493; /* Darker pink background color */
+    border-color: #FFB6C1; /* Pink border color */
+    color: white;
+}
+
+input[type=password] {
+    background-color: #FF1493; /* Darker pink background color */
+    border-color: #FFB6C1; /* Pink border color */
+    color: white;
+}
+
+input[name=url] {
+    background-color: #FF69B4; /* Darker pink background color */ 
+    border-color: #FFB6C1; /* Pink border color */
+    color: white;
+    border-radius: 15px;
+}
+
+::placeholder {
+    color: rgb(230, 230, 230)
+}
+
+select {
+    background-color: #FF1493; /* Darker pink background color */
+    border-color: #FFB6C1; /* Pink border color */
+    color: white;
+}
+
+textarea {
+    background-color: #FF1493; /* Darker pink background color */
+    border-color: #FFB6C1; /* Pink border color */
+    color: white;
+}
+
+.hometab {
+    background-image: url();
+    background-color: #1E1E1E; /* Dark background color */
+    border-color: #FF69B4; /* Pink border color */
+    color: white;
+}
+
+button.urlUpSubmit {
+    background-color: #FF69B4; /* Pink background color */
+    border-color: #FFB6C1; /* Pink border color */
+    color: white;
+}
+
+button.urlUpSubmit:hover {
+    background-color: #FF1493; /* Darker pink hover color */
+}

@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link rel="stylesheet" href="resources/style.css">
+    <link rel='stylesheet' href='resources/style-dark.css'>
+    <meta name="theme-color" content="#CCE8ED">
+    <link rel="icon" href="pictures/favicon.png" />
+    <script src="resources/jquery-3.1.0.min.js"></script>
+    <script src="resources/dropzone.js"></script>
+    <meta charset="UTF-8">
+    <meta name="description" content="fun file host">
+    <meta name="viewport" content="width=device-width, initial-scale=0.5">
+    <title>partyhat</title>
+</head>
+
+<body>
+
+    <header>
+        <img src='pictures/logo.png' alt='logo' style='margin: auto; display: block;'>
+    </header>
+
+    <br>
+    <br>
+
+    <center>
+        <div class="greeting">Uploads up to 500 MB are allowed!</div>
+    </center>
+
+    <br>
+    <br>
+
+    <noscript>
+        <div class="noscriptalert">Javascript is required to use partyhat.</div>
+    </noscript>
+
+    <center>
+        <form action="http://localhost:8080/upload" method='post' enctype='multipart/form-data' class="dropzone" id="dropzoneUpload">
+            <input type="hidden" name="userhash" value="">
+        </form>
+    </center>
+
+    <div class="templateForUploads" style="display: none;">
+        <div class="dz-preview dz-file-preview">
+            <div class="dz-details">
+                <div class="dz-filename"><span data-dz-name></span></div>
+                <div class="dz-size" data-dz-size></div>
+            </div>
+            <div class="dz-progress"><span class="dz-upload" data-dz-uploadprogress></span></div>
+            <div class="dz-error-message"><span data-dz-errormessage></span></div>
+        </div>
+    </div>
+
+    <div class="urlUploads">
+        <p><a class="linkbutton" id="showURLUp" href="#">upload by URL</a></p>
+
+        <form class="urlUploadForm" action="http://localhost:8080/urlupload" method='post' enctype='multipart/form-data'
+            style="display: none;">
+            <input type="hidden" name="userhash" value="">
+            <input type="text" name="url" placeholder="paste or type link here">
+            <button type="button" class="urlUpSubmit">upload</button>
+
+            <p class="urlUploadResponse" style="display: none;"></p>
+        </form>
+    </div>
+
+    <script src="resources/uploadform.js"></script>
+
+    <div class="footer">
+    </div>
+</body>
+</html>
