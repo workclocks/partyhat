@@ -25,7 +25,7 @@ Before you get started, ensure you have the following dependencies:
 - Node.js
 - npm (Node Package Manager)
 
-### API Setup
+### Setup Instructions
 
 1. Clone the repository:
 
@@ -40,7 +40,7 @@ Before you get started, ensure you have the following dependencies:
 3. Install the dependencies:
 
    ```shell
-   cd src/server
+   cd src
    npm install
     ```
 4. Start the API server:
@@ -48,14 +48,7 @@ Before you get started, ensure you have the following dependencies:
    ```shell
    npm run start
    ```
-5. **Congrats!** The API server should now be running on port 8080.
-
-### Client Setup
-The Party Hat client is a static web application, which means it can be deployed on any HTTP server or platform that serves static files. You have a couple of deployment options:
-
-1. **Local Hosting:** If you want to run Party Hat locally for development purposes, you can simply open the `src/web/index.html` file in your web browser. No additional setup is required.
-
-2. **Online Deployment:** You can deploy the Party Hat client to online platforms like [Vercel](https://vercel.com/) for easy access. Just upload the contents of the `src/web` directory to your chosen hosting service, and your Party Hat instance will be live.
+5. **Congrats!** The API && Web Server should now be running on port 8080.
 
 ## Usage
 - To upload a file, drag and drop it into the designated area or click to select files.

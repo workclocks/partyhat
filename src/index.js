@@ -9,7 +9,7 @@ const axios = require('axios');
 const rateLimit = require('express-rate-limit');
 
 const app = express();
-const port = 8080;
+const port = 80;
 
 app.use(cors());
 
@@ -137,3 +137,5 @@ app.post('/delete', (req, res) => {
 app.listen(port, () => {
     console.log(`Server is running on port ${port}`);
 });
+
+app.use('/', express.static(path.join(__dirname, 'static')));
