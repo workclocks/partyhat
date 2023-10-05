@@ -6,6 +6,8 @@
 
 **Party Hat** is a web application that allows you to easily upload files or provide URLs to upload files to a server. It provides a simple and user-friendly interface for uploading, storing, and sharing files. Whether you want to share images, documents, or any other file type, **Party Hat** has got you covered.
 
+You can see a demo of how it looks at http://nl2-4.deploy.sbs:6383/
+
 ## Features
 - **Easy File Upload:** Upload files quickly and easily using the intuitive user interface.
 - **URL Upload:** Share files by providing direct URLs to the file you want to upload.
