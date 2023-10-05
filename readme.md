@@ -1,10 +1,16 @@
 <p align="center">
-  <img src="https://cdn.discordapp.com/attachments/1097559597268619425/1151740733032771634/logo.png" alt="Party Hat Logo">
+  <img src="https://github.com/OddDevelopment/partyhat-add-demo/assets/135460135/659485d9-fb54-4695-8683-4218c3e8d957" />
 </p>
 
 ## Overview
 
 **Party Hat** is a web application that allows you to easily upload files or provide URLs to upload files to a server. It provides a simple and user-friendly interface for uploading, storing, and sharing files. Whether you want to share images, documents, or any other file type, **Party Hat** has got you covered.
+
+<p align="center">
+  <img src="https://github.com/OddDevelopment/partyhat-add-demo/assets/135460135/a7edebad-e01d-427f-b9ac-0dabb56102fd" />
+</p>
+
+You can see a demo of how it looks at http://nl2-4.deploy.sbs:6383/ (Uploads will not work, Just a demo)
 
 ## Features
 - **Easy File Upload:** Upload files quickly and easily using the intuitive user interface.
