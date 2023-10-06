@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="https://github.com/OddDevelopment/partyhat-add-demo/assets/135460135/659485d9-fb54-4695-8683-4218c3e8d957" />
+  <img src="https://deploy.sbs/usercontent/github/partyhat/logo.png" />
 </p>
 
 ## Overview
@@ -7,7 +7,7 @@
 **Party Hat** is a web application that allows you to easily upload files or provide URLs to upload files to a server. It provides a simple and user-friendly interface for uploading, storing, and sharing files. Whether you want to share images, documents, or any other file type, **Party Hat** has got you covered.
 
 <p align="center">
-  <img src="https://github.com/OddDevelopment/partyhat-add-demo/assets/135460135/a7edebad-e01d-427f-b9ac-0dabb56102fd" />
+  <img src="https://deploy.sbs/usercontent/github/partyhat/mac.png" />
 </p>
 
 You can see a demo of how it looks at http://nl2-4.deploy.sbs:6383/ (Uploads will not work, Just a demo)
